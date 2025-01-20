@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <label for="email">email :</label>
+        <input type="email" id="email" placeholder="guts@sla.com">
+        <br>
+        <label for="username">username :</label>
+        <input type="text" id="username" placeholder="joaogarnize" required><!--tipo texto com required para necessitar de haver um username-->
+        <br>
+        <label for="password">password :</label>
+        <input type="password" id="password" minlength="8" placeholder="********" maxlength="15" required><!--tipo password para tampar os caracteres e required para necessitar do password-->
+        <br>
+        <label for="phone">phone :</label>
+        <input type="phone" id="phone" placeholder="(**)*****-****" pattern="[0-9]{11}" onkeypress="telefone()">
+        <br>
+        <label for="bday">birthday :</label>
+        <input type="date" id="bday">
+        <br>
+        <label for="payment">pagamento</label>
+        <select>
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="naosei">naosei</option>
+        </select>
+        <br>
+        <button type="reset" onclick="submitPrint()">reset</button>
+        <button type="submit" onclick="submitPrint()">submit</button>
+
+    </form>
+    <h1 id="infos"></h1>
+    <script>
+        function submitPrint(){
+            let username=document.getElementById("username").value
+            let password=document.getElementById("password").value
+            let email=document.getElementById("email").value
+            document.getElementById("infos").innerHTML="email: "+email+",username: "+username+", password: "+password
+
+        }
+        function telefone(){
+            let phone =document.getElementById("phone").value
+            let aux="("+String(phone).slice(0,2)+")"+String(phone).slice(2,String(phone).length-1)
+            document.getElementById("infos").innerHTML=aux
+            
+        }
+    </script>
+</body>
+</html>
