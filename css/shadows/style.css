@@ -1,0 +1,27 @@
+#first{
+    width: 430px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-shadow: 3px 5px 5px royalblue,3px -5px 5px rebeccapurple;
+    left: 730px;
+    display: flex;
+    position: relative;
+    top: 140px;
+    
+}
+#divprincipal{
+    width: 328px;
+    height: 494px;
+    border: ridge black 5px;
+    box-shadow: 9px 10px 5px white;
+    left: 780px;
+    display: flex;
+    position: relative;
+    top: 140px;
+}
+body{
+    width: 1900px;
+    height: 900px;
+    background-color: black;
+}
+

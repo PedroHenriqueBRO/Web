@@ -1,0 +1,45 @@
+#sq{
+    width: 476px;
+    height: 496px;
+    border: 5px ridge black; 
+    position: relative;
+    background-color:black;
+ 
+    overflow: auto;
+    
+}
+#char{
+    width: 476px;
+    height: 496px;
+    position: relative;
+    border: 5px ridge black; 
+    background-color: black;
+    left: 500px;
+    bottom: 506px;
+    overflow: auto;
+}
+#squirtle{
+    float: right;
+    margin-right: 20px;
+}
+#charmander{
+float: right;
+margin-right: 20px;
+}
+#namesq{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(4, 69, 155)
+}
+#namechar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(85, 3, 3)
+}
+.exp{
+    position: relative;
+    top: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: whitesmoke;
+    text-shadow: 3px -3px 3px royalblue,3px 3px 3px blueviolet;
+    
+}

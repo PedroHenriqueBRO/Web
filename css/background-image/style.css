@@ -1,0 +1,12 @@
+#backimage{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./imgs/2007-08-18_11-51-18_corrected.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+body{
+    margin: 0;
+}

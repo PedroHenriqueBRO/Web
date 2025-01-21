@@ -1,0 +1,18 @@
+.box{
+    border: 5px ridge red;
+    padding: 75px;
+    padding-left: 55px;
+    text-align: center;
+    width: 50%;
+    box-sizing: border-box;
+    height: auto;
+    float: left;
+    background-color: rebeccapurple;
+    min-height: 25%;
+}
+.container{
+    background-color: aqua;
+    border: 5px ridge black;
+    height: 100vh;
+
+}

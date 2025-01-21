@@ -1,0 +1,56 @@
+.playwrite-vn{
+  font-family: "Playwrite VN", serif;
+  font-optical-sizing: auto;
+  font-weight: 5px;
+  font-style: normal;
+}
+
+#button:hover{
+color: hsl(192, 7%, 86%);
+font-family: "Playwrite VN", serif;
+font-size: small;
+background-color: blue;
+border: 0px  black ;
+border-radius: 5px;
+}
+#button:active{
+    color: hsl(195, 6%, 87%);
+    font-family: "Playwrite VN", serif;
+    font-size: small;
+    background-color: black;
+    border: 0px;
+    border-radius: 5px;
+}
+#button{
+    color: hsl(192, 8%, 88%);
+    font-family: "Playwrite VN", serif;
+    font-size: 15px;
+    background-color: black;
+    border: 0px;
+    border-radius: 5px;
+}
+#go:link{
+font-size: 50px;
+}
+#go:hover{
+    color: aqua;
+}
+#ola{
+    border: 3px solid black;
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+#ola li{
+    font-family: "Playwrite VN", serif;
+    font-size: small;
+    text-decoration: underline rgb(16, 190, 221);
+    width: 150px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+#ola li:hover{
+left: 50px;
+    
+}

@@ -1,0 +1,96 @@
+.playwrite-in{
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    margin:auto;
+}
+#donut{
+    width: 150px;
+    height: 100px;
+}
+#menuh{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 3px solid black;
+    width: 147px;
+    height: 953px;
+    background-color: hsl(318, 77%, 58%);
+    float: left;
+}
+#menuw{
+    border-bottom: 3px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    position: relative;
+    left: 150px;
+    width:1769px;
+    height: 100px;
+    background-color: rgb(230, 65, 181);
+}
+#catalogo{
+    width: 1770px;
+    height: 850px;
+    left: 150px;
+    position: relative;
+    background-image: url(./imgs/pngtree-sticker-of-a-cartoon-plate-of-donuts-png-image_14870705.png);
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Login{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+font-size: large;
+position: relative;
+top:35%;
+left: 1480px;
+}
+#Login:hover{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+font-size: large;
+position: relative;
+top:35%;
+left: 1480px;
+
+}
+#Signup{
+    border: 2px solid white;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    font-size: large;
+    position: relative;
+    top:35%;
+    left: 1480px;
+}
+#Signup:hover{
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    font-size: large;
+    position: relative;
+    top:35%;
+    left: 1480px;
+}
+#Loja{
+    font-family: "Playwrite IN", serif;
+    color: white;
+    width: 200px;
+    position: relative;
+    height: 30px;
+    left: 20px;
+    bottom: 935px;
+    font-size: 30px;
+}
