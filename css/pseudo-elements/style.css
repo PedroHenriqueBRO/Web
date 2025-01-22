@@ -1,0 +1,16 @@
+#id{
+
+}
+.paragrafo::first-line{
+font-size: 30px;
+}
+.paragrafo::selection{ 
+    background-color: rgb(42, 192, 104);
+
+}
+#ulist li::before{
+    content: "Li";
+}
+#ulist li::after{
+    content: "iL";
+}
