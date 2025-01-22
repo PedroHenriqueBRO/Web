@@ -1,0 +1,17 @@
+#Pagination{
+    text-align: center;
+}
+#Pagination a{
+    color: black;
+    padding: 4px 20px;
+    text-decoration: solid;
+
+
+}
+#Pagination a#active{
+    color: black;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 4px 20px;
+    text-decoration: solid;
+}
